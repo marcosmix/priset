@@ -39,6 +39,13 @@ font-weight: 300;
  
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body
 {
@@ -62,7 +69,10 @@ ul,ol,a,a:visited,hover
   text-decoration: none;
 } 
 
-a{color:white;}
+a{
+  color:white;
+  text-decoration: none;
+}
 
 input
 {

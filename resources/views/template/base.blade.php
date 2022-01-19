@@ -7,17 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenidos a priset</title>
     <link href="{{asset('css/global.css')}}" rel="stylesheet">
-    <link href="{{asset('css/setup.css')}}" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1>Sistema web PRISET</h1>
     </header>
+
     @yield('content')
 
     <footer>NODOS 2022 - Pechutrap - Marcodeev</footer>
 
 </body>
-
 </html>
