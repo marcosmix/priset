@@ -15,3 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[HomeController::class,'index']);
+Route::get('login',[HomeController::class,'login']);
+
+
+
+//---tests----
+Route::get('logintest',[HomeController::class,'testLoginCiudadano']);
+Route::get('/cuil',[HomeController::class,'testCUIL']);
+
+Route::post('/cuil/guardar', [HomeController::class, 'store']);
+
+
